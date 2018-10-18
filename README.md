@@ -4,6 +4,7 @@ Flask is easy to set-up I am working on Windows so all codes and installaton set
 
 
 Chapter1 Installations:
+
 Creatign the Working Directory (Open Command Prompt on your working location)
 
 $ mkdir flasky
