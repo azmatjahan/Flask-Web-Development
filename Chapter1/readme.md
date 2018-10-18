@@ -17,3 +17,5 @@ Check installed packages
 
 (venv) $ pip freeze
 
+
+![first flask app](https://user-images.githubusercontent.com/19364332/47155812-1c69f680-d2ff-11e8-963c-7d1405ab6e72.png)
