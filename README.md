@@ -36,4 +36,17 @@ All Flask applications must create an application instance.
 from flask import Flask
 app = Flask(__name__)
 
+The only required argument to the Flask class constructor is the name of the
+main module or package of the application.
+
 Routes and View Functions
+
+The most convenient way to define a route in a Flask application is through the
+app.route decorator exposed by the application instance. 
+
+
+@app.route('/')
+def index():
+return '<h1>Hello World!</h1>'
+
+the app.route decorator is the preferred method to register view functions
