@@ -3,7 +3,7 @@ Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intenti
 Flask is easy to set-up I am working on Windows so all codes and installaton setups are accordingly Windows 10
 
 
-Chapter1 Installations:
+<h2>Chapter1 Installations:</h2>
 
 Creatign the Working Directory (Open Command Prompt on your working location)
 
@@ -28,9 +28,9 @@ Check installed packages
 
 (venv) $ pip freeze 
 
-Chapter 2. Basic Application Structure
+<h2>Chapter 2. Basic Application Structure</h2>
 
-Initiallization
+<h3>Initiallization</h3>
 All Flask applications must create an application instance. 
 
 from flask import Flask
@@ -39,7 +39,7 @@ app = Flask(__name__)
 The only required argument to the Flask class constructor is the name of the
 main module or package of the application.
 
-Routes and View Functions
+<h3>Routes and View Functions</h3>
 
 The most convenient way to define a route in a Flask application is through the
 app.route decorator exposed by the application instance. 
@@ -47,6 +47,6 @@ app.route decorator exposed by the application instance.
 
 @app.route('/')
 def index():
-return '<h1>Hello World!</h1>'
+return 'Hello World!'
 
 the app.route decorator is the preferred method to register view functions
