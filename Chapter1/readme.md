@@ -16,3 +16,4 @@ Installing Python Packages with pip
 Check installed packages
 
 (venv) $ pip freeze
+
