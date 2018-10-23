@@ -14,6 +14,8 @@ main module or package of the application.
 
 The most convenient way to define a route in a Flask application is through the
 app.route decorator exposed by the application instance. 
+<p><b>Note:</b>Decorators are a standard feature of the Python language. A common use of decorators is to
+register functions as handler functions to be invoked when certain events occur.</p>
 
 
 @app.route('/')
