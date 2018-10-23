@@ -14,8 +14,6 @@ main module or package of the application.
 
 The most convenient way to define a route in a Flask application is through the
 app.route decorator exposed by the application instance. 
-<p><b>Note:</b>Decorators are a standard feature of the Python language. A common use of decorators is to
-register functions as handler functions to be invoked when certain events occur.</p>
 
 
 @app.route('/')
@@ -23,6 +21,9 @@ def index():
 return 'Hello World!'
 
 the app.route decorator is the preferred method to register view functions
+
+<p>*Decorators are a standard feature of the Python language. A common use of decorators is to
+register functions as handler functions to be invoked when certain events occur.</p>
 
 <b>Note:</b> The Flask development web server can also be started programmatically by invoking theapp.run() method. Older versions of Flask that did not have the flask command required the
 server to be started by running the application’s main script, which had to include the
