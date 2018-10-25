@@ -1,4 +1,4 @@
-<h1> Templates</h1>
+<h1>Chapter3 Templates</h1>
 
 <p>Templates are files that contain static data as well as placeholders for dynamic data. A template is a file that contains the text of
 a response, with placeholder variables for the dynamic parts that will be known only in the context of a request. </p>
