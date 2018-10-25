@@ -6,3 +6,4 @@ a response, with placeholder variables for the dynamic parts that will be known 
 final response string is called rendering. For the task of rendering templates,
 Flask uses a powerful template engine called Jinja2.
 A template is rendered with specific data to produce a final document. Flask uses the Jinja template library to render templates. </p>
+<h2>The Jinja2 Template Engine</h2>
